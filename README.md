@@ -1,5 +1,5 @@
 # eightPuzzleSolver
-This is a Golang package to solve the 8 puzzle using state space search method.
+This is a Golang package to solve the 8 puzzle using state space search with A* method.
 # Example use case
 This is an example of simple 8 puzzle solver web application [here](https://github.com/korawichtawan/eightPuzzleWebApp).
 # How to use
