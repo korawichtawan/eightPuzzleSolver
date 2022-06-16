@@ -1,4 +1,4 @@
-# eightPuzzleSolver
+# Eight Puzzle Solver
 This is a Golang package to solve the 8 puzzle using state space search with A* method.
 # Example use case
 This is an example of simple 8 puzzle solver web application [here](https://github.com/korawichtawan/eightPuzzleWebApp).
@@ -22,7 +22,7 @@ call function Solve() from eightPuzzleSolver and pass board as parameter.
 # Result
 minMove is int => minimum moves to solve the puzzle.<br />
 answer is slice of string => list of moves to solve the puzzle("t": "top", "r": "right", "b":"bottom", "l":"left"). <br />
-err is error => function Solve() return error when puzzle is invalid or unsolvable. <br />
+err is error => function Solve() return error when puzzle is invalid or unsolvable and return nil if puzzle is solvable. <br />
 ```js
   fmt.Println(minMove)
   fmt.Println(answer)
