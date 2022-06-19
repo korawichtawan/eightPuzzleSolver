@@ -7,7 +7,7 @@ import eight-puzzle solver
 ```js
 import ("github.com/korawichtawan/eightPuzzleSolver")
 ```
-create puzzle board with 3*3 dimensional array.
+create puzzle board with 3*3 dimensional array (0 is emtpy hole).
 ```js
   board := [3][3]int{
     {1,2,3},
